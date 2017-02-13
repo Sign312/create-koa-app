@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "a app based on koa-base-boilerplate",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^1.2.5",
+    "koa-auto-routes": "0.0.4",
+    "koa-bodyparser": "^2.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-router": "^5.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "create-koa-app",
+  "version": "0.0.4",
+  "description": "Create koa apps with koa-base-boilerplate",
+  "main": "index.js",
+  "bin": {
+    "create-koa-app": "index.js"
+  },
+  "scripts": {
+    "create-koa-app": "node index.js"
+  },
+  "author": "flypie2",
+  "license": "ISC",
+  "dependencies": {
+    "file-cmd": "0.0.4"
+  }
+}
