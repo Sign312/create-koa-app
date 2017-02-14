@@ -15,7 +15,7 @@ fileCmd.cp(
     console.log('\n' + appName + ' have been created\n')
     console.log(
         `you can type 'cd ${appName} && npm install' to build your app.
-then, you can type 'node app.js' to start your app for the first time.
+then, you can type 'npm start' to start your app for the first time.
 happy hacking ^.^`
     )
 }).catch(function (e) {
