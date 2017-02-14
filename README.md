@@ -1,20 +1,39 @@
 # create-koa-app
 
-> Create koa apps with [koa-base-boilerplate](https://github.com/flypie2/koa-base-boilerplate)
+> Create koa apps with koa-base-boilerplate 
 
-## install
+## explain
 
-```shell
-    su #then input your root password
+[koa-base-boilerplate](https://github.com/flypie2/koa-base-boilerplate) is a koa boilerplate integrated with koa-router koa-cors koa-bodyparser koa-auto-routes babel
 
-    npm install create-koa-app -g
-```
+and happly, you can use async/await in your app like koa2, even though we use koa1.
+
+This handy feature is owe to babel.
+
+koa-base-boilerplate is simple and flexible !
+
 ## usage
 
+first, install
+
 ```shell
-    create-koa-app [your app name]
+npm install create-koa-app -g
 ```
 
-then, you have your koa app based on [koa-base-boilerplate](https://github.com/flypie2/koa-base-boilerplate)
+then, use create-koa-app create your koa app
 
-ok ^.^
+```shell
+create-koa-app [your app name]
+```
+
+then, build
+
+```shell
+cd [your app name] && npm i
+```
+
+then, run
+
+```shell
+npm start
+```

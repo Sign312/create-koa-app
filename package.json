@@ -9,6 +9,10 @@
   "scripts": {
     "create-koa-app": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flypie2/create-koa-app.git"
+  },
   "author": "flypie2",
   "license": "ISC",
   "dependencies": {
